@@ -103,23 +103,23 @@ header nav .left .menu .bars {
 
 /* Hero Section css */
 
-.hero{
+.hero {
     display: flex;
     align-items: center;
     width: 100%;
-    height: 700px;
     background-color: rgb(8, 8, 8);
     color: white;
     justify-content: space-around;
     gap: 8rem;
-    padding: 0 80px;
+    padding: 160px 80px;
 }
 
-.hero .right-hero img{
+.hero .right-hero img {
     width: 320px;
     height: 320px;
 }
-.hero .left-hero p{
+
+.hero .left-hero p {
     font-family: 'Raleway', sans-serif;
     font-optical-sizing: auto;
     font-size: 1.2rem;
@@ -127,10 +127,14 @@ header nav .left .menu .bars {
     color: #797979;
     line-height: 26px;
 }
-.hero .left-hero p,.hero .left-hero h2,.hero .left-hero button{
+
+.hero .left-hero p,
+.hero .left-hero h2,
+.hero .left-hero button {
     margin: 10px 0;
 }
-button{
+
+button {
     width: 148px;
     height: 40px;
     color: white;
@@ -139,23 +143,68 @@ button{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: 0.2s ease background-color;
+}
+
+button:hover {
+    background-color: #4b4b4b;
 }
 
 /* About section css */
 
-.about{
+.about {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0 80px;
+    padding: 80px 80px;
 
 }
-.about h2{
+
+.about h2 {
     color: rgb(255, 255, 255);
 }
-.about p{
+
+.about p {
     color: #797979;
+}
+
+.about ul li h3 {
+    color: rgb(196, 196, 196);
+    display: inline-flex;
+}
+
+.about ul li {
+    color: #797979;
+}
+
+.about h2,
+.about p,
+.about ul li {
+    margin: 10px 0;
+}
+
+/* Plans section css */
+
+.plans {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #080808;
+    gap: 1rem;
+    padding: 80px 0;
+}
+
+.plans .card {
+    background-color: rgb(24, 24, 24);
+    color: rgb(255, 255, 255);
+    padding: 40px 30px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 10px;
+}
+.plans .card h2,.plans .card h3,.plans .card button, .plans .card p{
+    margin: 10px 0;
 }

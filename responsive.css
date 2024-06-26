@@ -7,52 +7,28 @@
         right: 80px;
     }
 }
+
 @media screen and (max-width: 275px) {
-    .hero .left-hero h2{
+    .hero .left-hero h2 {
         font-size: 1.3rem;
     }
-    .hero .left-hero p{
+
+    .hero .left-hero p {
         font-size: 1rem;
         line-height: 24px;
     }
 }
-@media screen and (max-width : 530px) {
+
+@media screen and (max-width : 790px) {
     .hero {
         padding: 30px;
     }
-    .hero .right-hero{
-        display: none;
-    }
-}
-@media (min-width: 531px) and (max-width: 830px) {
-    .hero .right-hero img {
-        display: none;
-    }
 
-    .hero {
-        background-image: url(hero.webp);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
-    .hero .left-hero {
-        text-align: center;
-        background-color: grey;
-        margin: auto;
-        width: 80%;
-        opacity: 0.7;
-        position: absolute;
-        border-radius: 23px;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    .hero .left-hero p{
-        color: black;
-    }
-    button{
-        background-color: rgb(0, 0, 0);
+    .hero .right-hero {
+        display: none;
     }
 }
+
 
 @media (min-width: 850px) and (max-width: 957px) {
     nav .right ul li {
@@ -128,6 +104,12 @@
     }
 }
 
+@media screen and (max-width: 600px) {
+    .hero .left-hero {
+        height: inherit;
+    }
+}
+
 @media (min-width: 550px) and (max-width: 600px) {
     nav .right ul li {
         font-size: 0.6rem;
@@ -200,7 +182,6 @@
         font-size: 1.3rem;
     }
 }
-
 @media screen and (max-width: 475px) {
     nav .left .menu {
         display: block;
@@ -254,6 +235,9 @@
 
     nav .right ul li {
         margin: 24px;
+    }
+    .about{
+        padding: 40px;
     }
 }
 
