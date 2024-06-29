@@ -208,3 +208,29 @@ button:hover {
 .plans .card h2,.plans .card h3,.plans .card button, .plans .card p{
     margin: 10px 0;
 }
+.plans .card p:nth-child(1){
+    text-decoration: underline;
+    text-decoration-skip-ink: 10px;
+}
+
+/* Testimonial section css */
+
+.testimonial .testimonial-box img{
+    width: 120px;
+    height: 120px;
+}
+.testimonial {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+.testimonial .testimonial-box{
+    width: 520px;
+    background-color: rgb(34, 34, 34);
+    padding: 15px 40px;
+    border-radius: 7px;
+}
