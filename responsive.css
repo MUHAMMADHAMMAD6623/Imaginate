@@ -1,274 +1,299 @@
 /* Responsive */
 
-
 @media (min-width: 960px) {
-    nav .left img {
-        position: relative;
-        right: 80px;
-    }
+  nav .left img {
+    position: relative;
+    right: 80px;
+  }
 }
 
 @media screen and (max-width: 275px) {
-    .hero .left-hero h2 {
-        font-size: 1.3rem;
-    }
+  .hero .left-hero h2 {
+    font-size: 1.3rem;
+  }
 
-    .hero .left-hero p {
-        font-size: 1rem;
-        line-height: 24px;
-    }
+  .hero .left-hero p {
+    font-size: 1rem;
+    line-height: 24px;
+  }
+  .testimonial .testimonial-box {
+    padding: 0px 13px;
+  }
 }
 
-@media screen and (max-width : 790px) {
-    .hero {
-        padding: 30px;
-    }
+@media screen and (max-width: 790px) {
+  .hero {
+    padding: 30px;
+  }
 
-    .hero .right-hero {
-        display: none;
-    }
+  .hero .right-hero {
+    display: none;
+  }
 }
-
 
 @media (min-width: 850px) and (max-width: 957px) {
-    nav .right ul li {
-        font-size: 0.9rem;
-    }
+  nav .right ul li {
+    font-size: 0.9rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 1rem;
-    }
+  nav .right .social-icons i {
+    font-size: 1rem;
+  }
 }
 
 @media (min-width: 800px) and (max-width: 850px) {
-    nav .right ul li {
-        font-size: 0.85rem;
-    }
+  nav .right ul li {
+    font-size: 0.85rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.95rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.95rem;
+  }
 
-    nav .right .social-icons {
-        width: 80px;
-    }
+  nav .right .social-icons {
+    width: 80px;
+  }
 }
 
 @media (min-width: 750px) and (max-width: 800px) {
-    nav .right ul li {
-        font-size: 0.8rem;
-    }
+  nav .right ul li {
+    font-size: 0.8rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.9rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.9rem;
+  }
 }
 
 @media (min-width: 700px) and (max-width: 770px) {
-    nav .right ul li {
-        font-size: 0.75rem;
-        margin: 13px;
-    }
+  nav .right ul li {
+    font-size: 0.75rem;
+    margin: 13px;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.85rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.85rem;
+  }
 }
 
 @media (min-width: 650px) and (max-width: 700px) {
-    nav .right ul li {
-        font-size: 0.7rem;
-    }
+  nav .right ul li {
+    font-size: 0.7rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.8rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.8rem;
+  }
 
-    nav .right {
-        margin-right: 80px;
-    }
+  nav .right {
+    margin-right: 80px;
+  }
 }
 
 @media (min-width: 600px) and (max-width: 650px) {
-    nav .right ul li {
-        font-size: 0.65rem;
-        margin: 10px;
-    }
+  nav .right ul li {
+    font-size: 0.65rem;
+    margin: 10px;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.75rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.75rem;
+  }
 
-    nav .right {
-        margin-right: 75px;
-    }
+  nav .right {
+    margin-right: 75px;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .hero .left-hero {
-        height: inherit;
-    }
+  .hero .left-hero {
+    height: inherit;
+  }
+  footer .top-footer{
+    padding-bottom: 30px;
+  }
 }
 
 @media (min-width: 550px) and (max-width: 600px) {
-    nav .right ul li {
-        font-size: 0.6rem;
-    }
+  nav .right ul li {
+    font-size: 0.6rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.7rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.7rem;
+  }
 
-    nav .right {
-        margin-right: 70px;
-    }
+  nav .right {
+    margin-right: 70px;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 550px) {
-    nav .right ul li {
-        font-size: 0.55rem;
-    }
+  nav .right ul li {
+    font-size: 0.55rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.65rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.65rem;
+  }
 
-    nav .right {
-        margin-right: 80px;
-    }
+  nav .right {
+    margin-right: 80px;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 500px) {
-    nav .right ul li {
-        font-size: 0.50rem;
-    }
+  nav .right ul li {
+    font-size: 0.5rem;
+  }
 
-    nav .right .social-icons i {
-        font-size: 0.6rem;
-    }
+  nav .right .social-icons i {
+    font-size: 0.6rem;
+  }
 
-    nav .right {
-        margin-right: 100px;
-    }
+  nav .right {
+    margin-right: 100px;
+  }
 }
 
 @media (min-width: 400px) and (max-width: 450px) {
-    nav .right ul li a {
-        font-size: 1.1rem;
-    }
+  nav .right ul li a {
+    font-size: 1.1rem;
+  }
 
-    .social-icons {
-        font-size: 1.2rem;
-    }
+  .social-icons {
+    font-size: 1.2rem;
+  }
 
-    nav .left .menu {
-        display: flex;
-    }
+  nav .left .menu {
+    display: flex;
+  }
 
-    nav .left {
-        width: 400px;
-        justify-content: space-around;
-        position: relative;
-        right: 4rem;
-    }
+  nav .left {
+    width: 400px;
+    justify-content: space-around;
+    position: relative;
+    right: 4rem;
+  }
 }
 
 @media (min-width: 450px) and (max-width: 475px) {
-    nav .right ul li a {
-        font-size: 1.1rem;
-    }
+  nav .right ul li a {
+    font-size: 1.1rem;
+  }
 
-    nav .right .social-icons a i {
-        font-size: 1.3rem;
-    }
+  nav .right .social-icons a i {
+    font-size: 1.3rem;
+  }
 }
 @media screen and (max-width: 475px) {
-    nav .left .menu {
-        display: block;
-    }
+  nav .left .menu {
+    display: block;
+  }
 
-    nav {
-        min-height: 85px;
-    }
+  nav {
+    min-height: 85px;
+  }
 
-    nav .left {
-        width: 400px;
-        justify-content: space-around;
-        position: relative;
-        right: 2.6rem;
-    }
+  nav .left {
+    width: 400px;
+    justify-content: space-around;
+    position: relative;
+    right: 2.6rem;
+  }
 
-    /* hamburger css*/
+  /* hamburger css*/
 
-    nav .left .menu.activated .bars:nth-child(2) {
-        opacity: 0;
-    }
+  nav .left .menu.activated .bars:nth-child(2) {
+    opacity: 0;
+  }
 
-    nav .left .menu.activated .bars:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
+  nav .left .menu.activated .bars:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
 
-    nav .left .menu.activated .bars:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
+  nav .left .menu.activated .bars:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 
-    nav .right {
-        position: fixed;
-        top: 85px;
-        left: -100%;
-        flex-direction: column;
-        background-color: rgb(51, 51, 51);
-        width: 100vw;
-        height: 450px;
-        text-align: center;
-        transition: 0.3s;
-        z-index: 9;
-    }
+  nav .right {
+    position: fixed;
+    top: 85px;
+    left: -100%;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51);
+    width: 100vw;
+    height: 450px;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 9;
+  }
 
-    nav .right.actived {
-        left: 0;
-    }
+  nav .right.actived {
+    left: 0;
+  }
 
-    nav .right ul {
-        flex-direction: column;
-    }
+  nav .right ul {
+    flex-direction: column;
+  }
 
-    nav .right ul li {
-        margin: 24px;
-    }
-    .about{
-        padding: 40px;
-    }
+  nav .right ul li {
+    margin: 24px;
+  }
+  .about {
+    padding: 40px;
+  }
+  footer .top-footer {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-bottom: 30px;
+  }
+  footer .top-footer .right-footer{
+    width: 100%;
+  }
+  footer .top-footer .right-footer .links a{
+    font-size: 1rem;
+  }
+  footer .bottom-footer p{
+    font-size: 0.9rem;
+  }
+  footer{
+    padding-left: 25px;
+    padding-right: 25px;
+  }
 }
 
 @media (max-width: 350px) {
-    nav .left img {
-        width: 6rem;
-        height: 2rem;
-        position: relative;
-        right: 20px;
-    }
+  nav .left img {
+    width: 6rem;
+    height: 2rem;
+    position: relative;
+    right: 20px;
+  }
 
-    nav .right {
-        top: 70px;
-    }
+  nav .right {
+    top: 70px;
+  }
 
-    nav {
-        min-height: 70px;
-    }
+  nav {
+    min-height: 70px;
+  }
 
-    nav .left .menu {
-        margin-left: 25px;
-    }
+  nav .left .menu {
+    margin-left: 25px;
+  }
 }
 
 @media (max-width: 300px) {
-    nav .left .menu {
-        margin-left: 40px;
-    }
+  nav .left .menu {
+    margin-left: 40px;
+  }
 
-    nav .left img {
-        position: relative;
-        left: 0px;
-    }
+  nav .left img {
+    position: relative;
+    left: 0px;
+  }
 }
