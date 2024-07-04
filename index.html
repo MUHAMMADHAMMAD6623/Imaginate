@@ -31,7 +31,7 @@
     <title>Imaginate Image Generator</title>
   </head>
 
-  <body>
+  <body class="universe">
     <header>
       <nav>
         <div class="left">
@@ -199,10 +199,12 @@
     <script>
       const hamburger = document.querySelector(".menu");
       const rightsec = document.querySelector(".right");
+      const body = document.querySelector(".universe")
 
       hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("activated");
         rightsec.classList.toggle("actived");
+        body.classList.toggle('hamburger-open')
       });
 
 

@@ -7,6 +7,11 @@
 
 body{
   scroll-behavior: smooth;
+  background-color: #000000;
+}
+
+.hamburger-open section,footer:not(header){
+  display: none;
 }
 /* Navbar css */
 

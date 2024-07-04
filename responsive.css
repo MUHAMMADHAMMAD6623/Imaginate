@@ -106,9 +106,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  
   nav .left .menu {
     display: block;
+    z-index: 99;
   }
 
   nav {
@@ -137,18 +137,23 @@
   }
 
   nav .right {
-    position: fixed;
-    top: 85px;
+    position: absolute;
+    top: 0px;
     left: -100%;
     flex-direction: column;
     background-color: rgb(51, 51, 51);
     width: 100vw;
-    height: 450px;
+    height: 100vh;
     text-align: center;
     transition: 0.3s;
     z-index: 9;
   }
-
+  nav .right ul li a{
+    font-size: 1.5rem;
+  }
+  nav .right .social-icons a i{
+    font-size: 1.4rem;
+  }
   nav .right.actived {
     left: 0;
   }
@@ -247,6 +252,7 @@
   
   nav .left .menu {
     display: block;
+    z-index: 99;
   }
 
   nav {
@@ -275,13 +281,13 @@
   }
 
   nav .right {
-    position: fixed;
-    top: 85px;
+    position: absolute;
+    top: 0px;
     left: -100%;
     flex-direction: column;
     background-color: rgb(51, 51, 51);
     width: 100vw;
-    height: 450px;
+    height: 100vh;
     text-align: center;
     transition: 0.3s;
     z-index: 9;
@@ -342,6 +348,12 @@
 
   nav .left .menu {
     margin-left: 25px;
+  }
+  nav .right ul li a{
+    font-size: 1.2rem;
+  }
+  nav .right .social-icons a i{
+    font-size: 1.1rem;
   }
 }
 
