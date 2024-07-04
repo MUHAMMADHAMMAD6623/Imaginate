@@ -47,9 +47,9 @@
         <div class="right">
           <ul>
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="Info.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="Info.html">Services</a></li>
           </ul>
           <div class="social-icons">
             <a href="https://facebook.com" target="_blank"
@@ -78,7 +78,7 @@
           inspiration. It can generate every type of images like Art, Poster,
           photo, illustration.
         </p>
-        <button>Start Generating</button>
+        <button><a href="#plans" style="text-decoration: none; color: white;">Start Generating</a></button>
       </div>
       <div class="right-hero">
         <img src="hero.webp" />
@@ -107,15 +107,15 @@
         </li>
       </ul>
     </section>
-    <section class="plans">
+    <section class="plans" id="plans">
       <div class="card">
         <h2 class="card-heading">Basic</h2>
         <h3 class="plan-price">15$ per month</h3>
-        <button>Choose plan</button>
+        <button><a href="notallowed.html" style="text-decoration: none; color: white;">Choose Plan</a></button>
         <hr />
         <p class="info">Image Generation</p>
         <p class="info">40 Generations per day</p>
-        <p class="info">Up to 5 members</p>
+        <p class="info">Only 1 members</p>
         <p class="info">2x more productivity increased</p>
         <p class="info">Public Generations</p>
       </div>
@@ -123,7 +123,7 @@
         <p>HOT</p>
         <h2 class="card-heading">Plus</h2>
         <h3 class="plan-price">30$ per month</h3>
-        <button>Choose plan</button>
+        <button><a href="notallowed.html" style="text-decoration: none; color: white;">Choose Plan</a></button>
         <hr />
         <p class="info">Image Generation</p>
         <p class="info">80 Generations per day</p>
@@ -134,7 +134,7 @@
       <div class="card">
         <h2 class="card-heading">Pro</h2>
         <h3 class="plan-price">150$ per month</h3>
-        <button>Choose plan</button>
+        <button><a href="notallowed.html" style="text-decoration: none; color: white;">Choose Plan</a></button>
         <hr />
         <p class="info">Image Generation</p>
         <p class="info">200 Generations per day</p>
@@ -184,11 +184,11 @@
       </div>
       <div class="right-footer">
         <div class="links">
-          <a href="">About</a>
-          <a href="">Contact</a>
-          <a href="">Services</a>
-          <a href="">Privacy Policy</a>
-          <a href="">Terms of Service</a>
+          <a href="Info.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="Info.html">Services</a>
+          <a href="Info.html">Privacy Policy</a>
+          <a href="Info.html">Terms of Service</a>
         </div>
       </div>
       </div>
@@ -204,6 +204,17 @@
         hamburger.classList.toggle("activated");
         rightsec.classList.toggle("actived");
       });
+
+
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
     </script>
   </body>
 </html>
