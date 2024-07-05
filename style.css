@@ -7,10 +7,13 @@
 
 body{
   scroll-behavior: smooth;
-  background-color: #000000;
+  background-color: #0A0A0A;
 }
 
-.hamburger-open section,footer:not(header){
+.hamburger-open section:not(header){
+  display: none;
+}
+.hamburger-open footer{
   display: none;
 }
 /* Navbar css */
@@ -118,7 +121,6 @@ header nav .left .menu .bars {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: rgb(8, 8, 8);
   color: white;
   justify-content: space-around;
   gap: 8rem;
@@ -164,7 +166,6 @@ button:hover {
 /* About section css */
 
 .about {
-  background-color: rgb(0, 0, 0);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -203,7 +204,6 @@ button:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #080808;
   gap: 1rem;
   padding: 80px 20px;
 }
@@ -235,7 +235,6 @@ button:hover {
 .testimonial {
   display: flex;
   width: 100%;
-  background-color: black;
   color: white;
   align-items: center;
   justify-content: space-around;
